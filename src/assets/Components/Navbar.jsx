@@ -37,8 +37,8 @@ let navigate = useNavigate()
   const handleCloseNavMenu = (page) => {
     console.log(page);
 
-   if ( page === 'home') {
-    navigate('/home')
+   if ( page === 'Home') {
+    navigate('/')
    }else{
 
        navigate(`${page}`)
