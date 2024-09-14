@@ -2,6 +2,7 @@ import React from 'react'
 import { Outlet } from 'react-router-dom'
 import Navbar from './assets/Components/Navbar'
 import ResponsiveAppBar from './assets/Components/Navbar'
+import Product from './Pages/Product'
 
 function Layout() {
 
@@ -10,7 +11,9 @@ function Layout() {
   return (<>
     
 
-    <ResponsiveAppBar/>  
+    <ResponsiveAppBar/> 
+    <Product/> 
+
     <Outlet/>  
     </>
 )

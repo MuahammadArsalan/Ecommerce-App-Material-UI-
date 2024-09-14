@@ -1,0 +1,9 @@
+
+.desc{
+  
+        /* width: 500px; Set    the width based on your design */
+        overflow: hidden;
+        /* white-space: wrap; */
+        text-overflow:ellipsis;
+      }
+
