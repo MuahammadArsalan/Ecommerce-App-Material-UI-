@@ -18,7 +18,7 @@ function SingleProduct(id){
 
   console.log(id);
   
-navigate(`singleproduct/${id}`)  
+navigate(`/singleProduct/${id}`)  
 }
 
 
@@ -45,7 +45,7 @@ navigate(`singleproduct/${id}`)
         </Typography>
       </CardContent>
       <CardActions>
-      <Button size="small" onClick={()=>{SingleProduct(props.id)}}>Learn More</Button>
+      <Button size="small" onClick={()=>{SingleProduct(props.id)}}>Show More</Button>
 
          </CardActions>
      

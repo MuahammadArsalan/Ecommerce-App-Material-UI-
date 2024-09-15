@@ -12,7 +12,7 @@ function Layout() {
     
 
     <ResponsiveAppBar/> 
-    <Product/> 
+  
 
     <Outlet/>  
     </>

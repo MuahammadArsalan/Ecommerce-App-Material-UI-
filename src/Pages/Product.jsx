@@ -20,9 +20,6 @@ let [data,setData] = useState('')
 let navigate =useNavigate();
 
 
-function SinglePage(id){
-navigate(`${id}`)  
-  }
 
  useEffect(()=>{
 axios('https://fakestoreapi.com/products')
